@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MeterChartView">
+        <attr name="progressColor" format="color" />
+        <attr name="secondaryColor" format="color" />
+        <attr name="firstValue" format="float" />
+        <attr name="secondValue" format="float" />
+        <attr name="clockHandColor" format="color" />
+        <attr name="height_radial" format="integer" />
+        <attr name="progressMeter" format="integer" />
+        <attr name="meterHandImage" format="reference" />
+        <attr name="meterWidthPercent" format="float" />
+    </declare-styleable>
+    <declare-styleable name="FunnelChartView">
+        <attr name="fontSizeF" format="dimension" />
+        <attr name="fontColorF" format="color" />
+    </declare-styleable>
+</resources>

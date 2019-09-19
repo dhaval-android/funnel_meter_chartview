@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="secondary_color">#ff7b00</color>
+    <color name="progress_color">#ffc800</color>
+    <color name="hand_color">#ea7a01</color>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:paddingStart="25dp"
+        android:paddingEnd="25dp"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:layout_width="match_parent"
+                android:id="@+id/mEdtVal"
+                android:hint="Percent Rotate meter"
+                android:layout_margin="15dp"
+                android:padding="15dp"
+                android:inputType="number"
+                android:layout_height="wrap_content" />
+
+            <com.db.funnel_meterchartview.MeterChartView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:id="@+id/meterChart"
+                app:clockHandColor="@android:color/black"
+                app:meterWidthPercent="10"
+                app:progressColor="@color/progress_color"
+                app:progressMeter="75"
+                app:secondaryColor="@color/secondary_color" />
+
+
+            <com.db.funnel_meterchartview.FunnelChartView
+                android:layout_width="match_parent"
+                android:layout_margin="25dp"
+                app:fontColorF="@color/hand_color"
+                app:fontSizeF="15dp"
+                android:id="@+id/funnelChart"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
