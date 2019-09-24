@@ -4,7 +4,9 @@
 This is the Library especially we developed for funnel chart view, I searched a lot of things but I didn't find any proper library so I just here try to create one core library with less code   
 Here also customization available like you can change the color of meter chart with help of progress_color and secondary_color e.t.c,
 
-<img src="https://raw.githubusercontent.com/dhaval-android/funnel_meter_chartview/master/screenshot/chart_screenshot_1.png" width="35%">
+<img src="https://raw.githubusercontent.com/dhaval-android/funnel_meter_chartview/master/screenshot/ezgif-2-172c23ca59d5.gif" width="35%">
+
+
 ## Installation
 
 First of all, you need to add bellow **jipack** URL in your project level **Gradle**.
@@ -24,6 +26,8 @@ dependencies{
    implementation 'com.github.dhaval-android:funnel_meter_chartview:1.0.0'	;
  }
 ```
+
+
 
 ## Usage
 ### Meter Chart View
