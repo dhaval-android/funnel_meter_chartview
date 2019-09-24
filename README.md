@@ -1,16 +1,10 @@
-# funnel_meter_chartview
-Library module for Funnel &amp; Meter Chart View
-
-![](screenshot/chart_screenshot_1.png){:width="50%"}
-
-
 # Funnel & Meter Chart View
 
 ## Description
 This is the Library especially we developed for funnel chart view, I searched a lot of things but I didn't find any proper library so I just here try to create one core library with less code   
 Here also customization available like you can change the color of meter chart with help of progress_color and secondary_color e.t.c,
 
-
+![](screenshot/chart_screenshot_1.png | width=100)
 
 ## Installation
 
@@ -79,5 +73,5 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 Please make sure to update tests as appropriate.
 
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
+## Download
+[Sample APK](https://github.com/dhaval-android/funnel_meter_chartview/raw/master/funnel_meter_sample.apk)
